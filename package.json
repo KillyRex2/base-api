@@ -1,0 +1,28 @@
+{
+  "name": "base-api",
+  "version": "1.0.0",
+  "description": "base to api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "Killyrex2",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KillyRex2/base-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KillyRex2/base-api/issues"
+  },
+  "homepage": "https://github.com/KillyRex2/base-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "path": "^0.12.7",
+    "sequelize": "^6.21.3"
+  }
+}
